@@ -12,6 +12,7 @@ export { default as About } from "./svg/about.svg";
 export { default as Gmail } from "./svg/gmail-icon.svg";
 export { default as whatsapp } from "./svg/whatsapp.svg";
 export { default as LOGOIT } from "./svg/logoIT.svg";
+export { default as Search__Icon } from "./svg/search-icon.svg";
 
 // social icons
 

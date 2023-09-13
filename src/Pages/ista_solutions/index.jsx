@@ -1,12 +1,12 @@
 import React from "react";
 import "./ista_solutions.scss";
 import { Ista_sol } from "../../assets";
-import IstaSolutionsNewCarrer from "../../Component/ista-solutions-com/solution_newCarrer";
-import Services_Categories from "../../Component/ista-solutions-com/Services_Categories";
-import Popular_services from "../../Component/ista-solutions-com/popular_services";
-import Connect_Now from "../../Component/ista-solutions-com/connect-now";
-import Our__Client from "../../Component/ista-solutions-com/solution_our_client";
-import Freelancer from "../../Component/ista-solutions-com/freelancer";
+// import IstaSolutionsNewCarrer from "../../Component/ista-solutions-com/solution_newCarrer";
+// import Services_Categories from "../../Component/ista-solutions-com/Services_Categories";
+// import Popular_services from "../../Component/ista-solutions-com/popular_services";
+// import Connect_Now from "../../Component/ista-solutions-com/connect-now";
+// import Our__Client from "../../Component/ista-solutions-com/solution_our_client";
+// import Freelancer from "../../Component/ista-solutions-com/freelancer";
 import Footer from "../../Component/footer";
 
 const IstaSolutions = () => {
@@ -36,12 +36,12 @@ const IstaSolutions = () => {
             <img src={Ista_sol} alt="" />
           </div>
         </div>
-        <IstaSolutionsNewCarrer />
+        {/* <IstaSolutionsNewCarrer />
         <Services_Categories />
         <Popular_services />
         <Connect_Now />
         <Our__Client />
-        <Freelancer />
+        <Freelancer /> */}
         <Footer />
       </div>
     </>

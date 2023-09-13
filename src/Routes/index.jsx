@@ -39,14 +39,14 @@ const ApplicationRoutes = () => {
   return (
     <Routes>
       <Route path={"*"} element={<Navigate to="/home" replace />} />
-      <Route
+      {/* <Route
         path="/home"
         element={
           <div className="layout">
             <Home />
           </div>
         }
-      />
+      /> */}
       <Route
         path="/about"
         element={
@@ -223,14 +223,14 @@ const ApplicationRoutes = () => {
           </div>
         }
       />
-      <Route
+      {/* <Route
         path="/graphics-design"
         element={
           <div className="layout mylayout">
             <Graphics_Design />
           </div>
         }
-      />
+      /> */}
       <Route
         path="/home"
         element={
@@ -247,22 +247,22 @@ const ApplicationRoutes = () => {
           </div>
         }
       />
-      <Route
+      {/* <Route
         path="/packages"
         element={
           <div className="layout mylayout">
             <Ista_Packages />
           </div>
         }
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/solution-freelancer"
         element={
           <div className="layout mylayout">
             <Solution_Freelancer />
           </div>
         }
-      />
+      /> */}
     </Routes>
   );
 };

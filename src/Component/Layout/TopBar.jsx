@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { LOGOIT, Logo, SearchIcon } from "../../assets";
-import { Input } from "antd";
+import { LOGOIT, Logo, SearchIcon, Search__Icon } from "../../assets";
+import { Input, Select } from "antd";
 import "../../GeneralStyle/index.scss";
 import "./TopBar.scss";
 import { useNavigate } from "react-router-dom";
@@ -17,15 +17,24 @@ const TopBar = ({ button, activeClass, tabsColor }) => {
     navigate(path);
   };
 
+  const { Option } = Select;
+  const selectBefore = (
+    <Select defaultValue="All">
+      <Option value="search1">search1</Option>
+      <Option value="search2">search2</Option>
+    </Select>
+  );
+
   return (
     <div className="headerMain">
       <div className="header">
         <div className="left-side">
           <img src={LOGOIT} />
           <Input
+            addonBefore={selectBefore}
             className="ant-input-affix-wrapper"
             placeholder="Search iSTA..."
-            suffix={<img src={SearchIcon} />}
+            suffix={<img src={Search__Icon} />}
           />
         </div>
         <div className="right-side">
